@@ -22,3 +22,7 @@ Diagrama de Patron UnitOfWork
 ![](https://cdn-images-1.medium.com/max/800/1*AswcP6696SOmTU2m-Kzipw.png)
 
 Para mayor informacion > https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application
+
+## Antes de Empezar
+Ejecutar script de sql en una base de datos y modificar el connection string correspondiente.
+Utilizar Postman para levantar la collection del api inicial para las pruebas iniciales
