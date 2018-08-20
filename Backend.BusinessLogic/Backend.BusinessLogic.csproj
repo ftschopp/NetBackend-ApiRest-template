@@ -51,14 +51,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoMapperConfig.cs" />
+    <Compile Include="DTO\Request\CityRequestDTO.cs" />
+    <Compile Include="DTO\Request\CountryRequestDTO.cs" />
+    <Compile Include="DTO\Request\CreateLocationRequestDTO.cs" />
     <Compile Include="DTO\Request\CreateUserRequestDTO.cs" />
+    <Compile Include="DTO\Request\StateRequestDTO.cs" />
     <Compile Include="DTO\Response\RoleResponseDTO.cs" />
+    <Compile Include="DTO\Shared\LocationDTO.cs" />
+    <Compile Include="Interfaces\ILocationService.cs" />
     <Compile Include="Service\BaseService.cs" />
     <Compile Include="DTO\Request\UserRequestDTO.cs" />
     <Compile Include="DTO\Response\UserResponseDTO.cs" />
     <Compile Include="DTO\Shared\UserDTO.cs" />
     <Compile Include="Interfaces\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\LocationService.cs" />
     <Compile Include="Service\UserService.cs" />
   </ItemGroup>
   <ItemGroup>

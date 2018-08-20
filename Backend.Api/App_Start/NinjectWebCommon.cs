@@ -16,6 +16,7 @@ namespace Backend.Api.App_Start
     using Helpers;
     using NLog;
     using Services;
+    using BusinessLogic.Interfaces;
 
     public static class NinjectWebCommon 
     {
@@ -72,6 +73,7 @@ namespace Backend.Api.App_Start
             
             //kernel.Bind<IUnitOfWork>().To<UnitOfWork>();
             kernel.Bind<IUserService>().To<UserService>();
+            kernel.Bind<ILocationService>().To<LocationService>();
             kernel.Bind<ILog>().ToMethod(x =>
             {
                 var scope = x.Request.ParentRequest.Service.FullName;

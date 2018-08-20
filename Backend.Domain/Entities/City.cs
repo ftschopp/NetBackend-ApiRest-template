@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace Backend.Domain.Entities
 {
-    public class City
+    public class City : EntityBase
     {
         #region Fields
         private State _state;
         #endregion
 
         #region Scalar Properties
-        public Guid Id { get; set; }
         public string Name { get; set; }
         public string ZipCode { get; set; }
         public Guid State_Id { get; set; }

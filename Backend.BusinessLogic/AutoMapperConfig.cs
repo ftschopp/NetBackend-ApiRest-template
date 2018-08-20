@@ -19,8 +19,12 @@ namespace Backend.BusinessLogic
                 config.CreateMap<UserRequestDTO, User>().ReverseMap();
                 config.CreateMap<UserResponseDTO, User>().ReverseMap();
                 config.CreateMap<RoleResponseDTO, Role>().ReverseMap();
-
                 config.CreateMap<CreateUserRequestDTO, User>().ReverseMap();
+
+                config.CreateMap<CreateLocationRequestDTO, List<Country>>().ReverseMap();
+                config.CreateMap<CountryRequestDTO, Country>().ReverseMap();
+                config.CreateMap<StateRequestDTO, State>().ReverseMap();
+                config.CreateMap<CityRequestDTO, City>().ReverseMap();
             });
         }
     }

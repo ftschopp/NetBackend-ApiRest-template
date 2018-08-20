@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Backend.Domain.Entities
 {
-    public class State
+    public class State : EntityBase
     {
         #region Fields
         private ICollection<City> _cities;
@@ -14,7 +14,6 @@ namespace Backend.Domain.Entities
         #endregion
 
         #region Scalar Properties
-        public Guid Id { get; set; }
         public string Name { get; set; }
         public Guid Country_Id { get; set; }
         #endregion

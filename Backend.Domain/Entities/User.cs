@@ -6,19 +6,13 @@ using System.Threading.Tasks;
 
 namespace Backend.Domain.Entities
 {
-    public class User
+    public class User : EntityBase
     {
-        public User()
-        {
-            this.Id = Guid.NewGuid();
-        }
-
         #region Fields
         private ICollection<Role> _roles;
         #endregion
 
         #region Scalar Properties
-        public Guid Id { get; set; }
 
         public string FullName { get; set; }
         public string Email { get; set; }
