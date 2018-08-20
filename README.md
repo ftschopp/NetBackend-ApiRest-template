@@ -1,4 +1,4 @@
-# NETBackend EF UOF RepositoryPattern JWT
+# NETBackend EF UOW RepositoryPattern JWT
 Proyecto Backend Web API 2 .NET con UnitOfWork EF 6.2 RepositoryPattern ApiRest JSON WEB TOKENS 
 
 ## Fundamentos de JWT
